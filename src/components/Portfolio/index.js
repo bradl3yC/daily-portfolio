@@ -5,7 +5,7 @@ class Portfolio extends Component {
   render() {
     return (
       <div>
-        <p>Portfolio placeholder</p>
+        <p>This is the Portfolio Page!</p>
       </div>
     );
   }
