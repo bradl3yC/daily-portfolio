@@ -12,8 +12,11 @@ class NavBar extends Component {
          <NavLink activeClassName="selected" className="nav-link" to="/about">About</NavLink>
          <span> | </span>
          <NavLink activeClassName="selected" className="nav-link" to="/portfolio">Portfolio</NavLink>
+         <span> | </span>
+         <NavLink activeClassName="selected" className="nav-link" to="/contact">Contact</NavLink>
+         <span> | </span>
+         <NavLink activeClassName="selected" className="nav-link" to="/references">References</NavLink>
         </nav>
-
         <div className="page-content">
           {this.props.children}
         </div>
