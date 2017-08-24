@@ -5,7 +5,8 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <p>This is the Home Page!</p>
+        <h3>The man, the legend:</h3>
+        <img src="https://www.fillmurray.com/g/900/600" alt=""/>
       </div>
     );
   }

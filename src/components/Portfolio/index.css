@@ -1,0 +1,16 @@
+body {
+  background: black;
+  color: #666;
+}
+li {
+  list-style-type: none;
+  border-bottom: 1px solid #666;
+  padding: 1em;
+  width: 400px;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  margin-bottom: 1em;
+}
