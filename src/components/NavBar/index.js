@@ -17,10 +17,6 @@ class NavBar extends Component {
          <span> | </span>
          <NavLink activeClassName="selected" className="nav-link" to="/references">References</NavLink>
         </nav>
-        <div className="page-content">
-          {this.props.children}
-        </div>
-
       </div>
     );
   }

@@ -15,7 +15,7 @@ import './index.css';
 ReactDOM.render(
   <BrowserRouter>
     <BaseLayout>
-      <NavBar>
+      <NavBar />
         <Switch>
           <Route path="/about" component={About}/>
           <Route path="/contact" component={Contact}/>
@@ -23,7 +23,6 @@ ReactDOM.render(
           <Route path="/portfolio" component={Portfolio}/>
           <Route path="/" component={Home}/>
         </Switch>
-      </NavBar>
     </BaseLayout>
   </BrowserRouter>
 
